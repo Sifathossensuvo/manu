@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/12/the-evolution-of-iron-man-in-the-mcu.jpg?fit=bounds&width=1280&height=720");
+    background-repeat: no-repeat;
+background-size: cover;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-top: 40px;
+}
+.un{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+ul > a{
+    font-size: 32px;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    text-decoration: underline;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.dd{
+    text-align: center;
+    margin-top: 450px;
+}
+.h1{
+    font-size: 50px;
+    color: white;
+}
+.pa{
+    color: rgb(245, 235, 235);
+    font-size: 30px;
+    margin-top: 20px;
+}
+.dw{
+    color: rgb(236, 76, 17);
+    font-size: 28px;
+    margin-top: 20px;
+}
+.copy{
+    font-size: 25px;
+    margin-top: 150px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .un{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .dd{
+        padding: 10px;
+    }
+}
