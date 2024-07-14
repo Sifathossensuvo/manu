@@ -67,4 +67,8 @@ a:hover{
     .dd{
         padding: 10px;
     }
+    body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCMTh08mLxXVReXXLwiofYhPHaTgUCKYHcEA&s");
+       text-align: center;
+    }
 }
